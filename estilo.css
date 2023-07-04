@@ -1,0 +1,124 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    padding-top: 10px;
+}
+.logo img {
+    max-width: 50px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.busca {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.busca button {
+    height: 30px;
+    background-color: black;
+}
+.busca input {
+    width: 350px;
+    height: 30px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+.busca ::placeholder {
+    color: white;
+}
+.busca button a {
+    color: rgb(245, 242, 242);
+}
+.menu_topo {
+    margin-left: 500px;
+}
+.menu_topo ul li {
+    display: inline;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: red;
+}
+.menu_topo ul li a {
+    padding: 5px;
+    background-color: red;
+    color: rgb(252, 249, 249);
+}
+
+.bar {
+    background-color: red;
+    padding: 15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.main {
+    text-align: justify;
+}
+.titulos {
+    text-align: center;
+}
+.hino {
+    text-align: justify;
+}
+.escudo {
+    display: flex;
+}
+.escudo img {
+    max-width: 200px;
+}
+.jogadores ul {
+    list-style: decimal;
+}
+.footer {
+    border-top: solid 1px #ccc6c6;
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.anchors {
+    border-left: solid 1px #ccc6c6;
+    padding-left: 15px;
+}
+.anchors a {
+    color: red;
+    font-size: 16px;
+}
+.sidebar {
+    border-right: solid 1px #ccc6c6;
+}
+.sidebar a {
+    color: red;
+    font-size: 16px;
+}
+figure {
+    text-align: center;
+}
